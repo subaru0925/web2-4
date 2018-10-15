@@ -1,35 +1,35 @@
 body{
-    background-color:#D0E0C0;
+    background-color: #D0E0C0;
     }
     
     #main{
-      width:798px;
-      margin:40px auto;
-      padding:40px 80px;
-      border:green 1px solid:
-      boackground-clolr:white;
+      width: 798px;
+      margin: 40px auto;
+      padding: 40px 80px;
+      border: green 1px solid:
+      boackground-clolr: white;
       }
       
       .photo{
-        float:left;
-        margin-right:30px;
+        float: left;
+        margin-right: 30px;
         }
         
         .curry_picture:after{
-          content:"";
-          clear:both;
-          display:block;
+          content: "";
+          clear: both;
+          display: block;
           }
           
           .explanation{
-            float:left;
-            width:468px;
+            float: left;
+            width: 468px;
             }
             
             dt{
-              clear:left;
-              float:left;
-              font-weight:bold;
+              clear: left;
+              float: left;
+              font-weight: bold;
               }
           
           .btn{
@@ -48,15 +48,15 @@ body{
                }
                
               .btn:active{
-                 color:white;
+                 color: white;
                  }
                  
               .btn-submit{
-                background-color:silver;
+                background-color: silver;
                 }
                 
               .btn-reset{
-                background-color:lightcoral;
+                background-color: lightcoral;
                 }
               
               #ingredient{
@@ -64,7 +64,41 @@ body{
                 border-collapse:collapse;
                 }
                 
-              th,td{
-                border:1px solid lightcoral;
+              th{
+                 border:1px solid lightcoral;
+                 bockground-color: mistyrose;
+                 padding: 5px;
+                 width: 100px;
+                 text-align: center;
                 }
-              
+               
+               td{
+                   border: 1px solid lightcoral;
+                   padding: 5px;
+                   width: 80px;
+                   text-align: right;
+                  }
+                
+caption{
+    padding: 5px;
+}
+
+#price{
+    background-color: lightyellow;
+}
+
+thead th, tfoot th{
+    background-color: white;
+}
+
+thead td{
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+tfoot td{
+    font-weight: bold;
+    background-color: white;
+}
+
